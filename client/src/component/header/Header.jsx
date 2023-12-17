@@ -7,7 +7,7 @@ export default function Header() {
         </a>
       </h1>
       <nav>
-        <a href="#">All games</a>
+        <a href="/games">All games</a>
 
         <div id="user">
           <a href="#">Create Game</a>
