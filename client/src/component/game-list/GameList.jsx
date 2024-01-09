@@ -6,7 +6,7 @@ export default function GameList() {
   useEffect(() => {
     gameService.getAll().then((result) => setGames(result));
   }, []);
-
+console.log('test')
   return (
     <section id="catalog-page">
       <h1>All Games</h1>
