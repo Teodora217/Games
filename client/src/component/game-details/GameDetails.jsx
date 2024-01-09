@@ -7,6 +7,7 @@ export default function GameDetails() {
   useEffect(() => {
     gameService.getOne(gameId).then(setGame);
   }, [gameId]);
+  console.log('test repo');
   return (
     <section id="game-details">
       <h1>Game Details</h1>
